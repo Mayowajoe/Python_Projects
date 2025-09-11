@@ -1,0 +1,7 @@
+PROJECT TASK
+Time-variant simulation from probability models with fixed parameter: 
+Simulate a data of size 2500 such that variable ‘age’ will have values from 1 to 100, variable ‘success’ will be simulated from geometric distribution with success probability p=.30, variable ‘accident’ will be simulated from binomial distribution with parameters n=10 and p=.60, variable ‘events’ will be simulated from Poisson distribution with parameter lambda=4, variable ‘time’ from exponential distribution with parameter 1/7, variable ‘income’ from normal distribution with parameters 10 and 2. Split the simulated data by age variable. Compute mean for each age of the simulated data. Randomly replicate this procedure for 100 times and then again compute mean.
+
+Time-variant simulation from probability models with variable parameter: 
+In this simulation design, we will simulate a data of size 2500 from various probability models under the assumption that data will be generated with varying parameter values where age takes values from 1 to 100 from uniform distribution. The probability models are binomial (parameters, n=10, p between 0.4 & 0.7), Poisson (parameter, between λ=.65 and λ=10) Geometric (between 0.2 and 0.3), Exponential (parameter, λ between .3 & .7), and normal (parameters, μ between 10 and 20, σ=2). 
+Split the simulated data from by age variable. Compute mean for each age of the simulated data. Randomly replicate this procedure for 100 times and then again compute mean.
